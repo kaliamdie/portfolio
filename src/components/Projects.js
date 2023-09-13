@@ -2,6 +2,7 @@ import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import quiz from "../images/quiz.png"
 import tic from "../images/tic.png"
+import netflix from "../images/net.png"
 const container = {
   hidden: {},
   visible: {
@@ -39,9 +40,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+        These projects in my portfolio demonstrate my skills and experience.
         </p>
       </motion.div>
 
@@ -57,10 +56,10 @@ const Projects = () => {
           {/* Buttons */}
           <div className="mt-3 space-x-4">
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
-              Live Demo
+            <a href="https://kaliamdie.github.io/TIC-TAC-TOE-GAME/"> Live Demo</a> 
             </button>
             <button className="bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded">
-              Git Hub
+            <a href="https://github.com/kaliamdie/TIC-TAC-TOE-GAME">Git Hub</a>
             </button>
           </div>
         
@@ -70,23 +69,23 @@ const Projects = () => {
           {/* Buttons */}
           <div className="mt-3 space-x-4">
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
-              Live Demo
+             <a href="https://quizapp-mod-2.netlify.app/">Live Demo</a> 
             </button>
             <button className="bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded">
-              Git Hub
+             <a href="https://github.com/kaliamdie/kaliamdie.github.io">Git Hub</a> 
             </button>
           </div>
        
         </div>
         <div className="flex flex-col items-center p-10 max-w-[500px] max-h-[400px] text-2xl font-playfair font-semibold">
-          <img src={quiz} alt="" />
+          <img src={netflix} alt="" />
           {/* Buttons */}
           <div className="mt-3 space-x-4">
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
-              Live Demo
+             <a href="https://netflix-project.onrender.com/"> Live Demo</a>
             </button>
             <button className="bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded">
-              Git Hub
+             <a href="https://github.com/kaliamdie/Netflix-CloneProject"> Git Hub</a>
             </button>
           </div>
           </div>

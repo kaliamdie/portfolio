@@ -38,7 +38,7 @@ export default function Landing({setSelected}) {
 {/* <img src="/assets/profile-image.png" alt="" className="kal" /> */}
 {/*main sectioncd
  */}
- <div className=' mb-30 z-30 basis-2/5 mt-12 md:mt-32'>
+ <div className=' mb-20 z-30 basis-2/5 mt-12 md:mt-32'>
  <motion.div 
    initial="hidden"
    whileInView="visible"
@@ -50,7 +50,7 @@ export default function Landing({setSelected}) {
     }}
 
  >
-   <p className="text-6xl font-playfair z-10 text-center md:text-start">
+   <p className="text-6xl font-playfair  z-10 text-center md:text-start">
           Hi, I'm Kali {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:
@@ -58,6 +58,10 @@ export default function Landing({setSelected}) {
             >
               Amdie
             </span>
+          </p>
+          <p className="mt-10 mb-7  text-lg text-center md:text-start">
+          A passionate software Engineer having an experiece building projects with
+          JavaScript/React/Node and other frameworks.
           </p>
           <p className="mt-10 mb-7  text-lg text-center md:text-start">
            Software Engineer
