@@ -33,7 +33,7 @@ const MySkills = () => {
         </motion.div>
 
         {/* Container for "Front-End" and "Back-End" */}
-        <div className="md:w-1/3 mt-5 flex justify-evenly items-center">
+        <div className="md:w-1/3 mt-5 flex justify-between items-center">
           <div className="bg-white text-black w-44 h-52 p-4 flex flex-col justify-start items-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-green-500 inline-block">
               <path strokeLinecap="round" strokeLinejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
