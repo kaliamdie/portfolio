@@ -21,7 +21,7 @@ export default function Landing({setSelected}) {
  >
       <img
         alt="profile"
-        className="hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[400px]"
+        className="hover:filter  transition duration-500 z-10 w-full max-w-[400px] md:max-w-[400px]"
         src={kali}
       />
     </div>
@@ -35,9 +35,7 @@ export default function Landing({setSelected}) {
 
     </div>)}
 </div>
-{/* <img src="/assets/profile-image.png" alt="" className="kal" /> */}
-{/*main sectioncd
- */}
+
  <div className=' mb-20 z-30 basis-2/5 mt-12 md:mt-32'>
  <motion.div 
    initial="hidden"
