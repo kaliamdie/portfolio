@@ -31,8 +31,7 @@ export default function Contact() {
     hidden: { opacity: 0, x: 50 },
     visible: { opacity: 1, x: 0 },
   }}
-  className="flex justify-center w-full" // Use justify-center to center the content horizontally
->
+  className="flex justify-center w-full" >
   <div>
     <p className=" mb-9 font-playfair font-semibold text-4xl border-b text-center"> {/* Add text-center to center the text */}
       <span className="text-black ">CONTACT ME</span> TO GET STARTED
@@ -44,10 +43,6 @@ export default function Contact() {
           {/* FORM & IMAGE */}
           <div className="md:flex md:justify-between gap-16 mt-5 ">
            
-                {/* <div className="w-70 border rounded-full hidden md:block">
-    <img className="rounded-xl" src={logo} alt="contact" />
-  </div>
-             */}
        
     
             <motion.div
@@ -64,7 +59,7 @@ export default function Contact() {
               <form
                 target="_blank"
                 handleSubmit={handleSubmit}
-                action="https://formsubmit.co/el/guxuwi"
+                action="https://formsubmit.co/53b5bb8c50b12671cbc6837a041e4a4b"
                 method="POST"
               >
                 <input
