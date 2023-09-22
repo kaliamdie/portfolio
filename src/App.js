@@ -9,6 +9,7 @@ import LineGradient from "./components/LineGradient";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Certificate from "./components/Certificate";
 
 
 
@@ -41,6 +42,8 @@ function App() {
 <LineGradient/>
    
       <Skills/>
+      <LineGradient/>
+      <Certificate/>
       <LineGradient/>
       <Projects/>
       <Contact/>
