@@ -51,8 +51,10 @@ export default function Navbar({ topPage, selected, setSelected }) {
             {/* Links for desktop */}
             <Link page="Home" selected={selected} setSelected={setSelected} />
             <Link page="Skills" selected={selected} setSelected={setSelected} />
+            <Link page="Certificate" selected={selected} setSelected={setSelected} />
             <Link page="Projects" selected={selected} setSelected={setSelected} />
             <Link page="Contact" selected={selected} setSelected={setSelected} />
+           
           </div>
         ) : (
           <button
@@ -86,8 +88,10 @@ export default function Navbar({ topPage, selected, setSelected }) {
             <div className="flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
               <Link page="Home" selected={selected} setSelected={setSelected} />
               <Link page="Skills" selected={selected} setSelected={setSelected} />
+              <Link page="Certificate" selected={selected} setSelected={setSelected} />
               <Link page="Projects" selected={selected} setSelected={setSelected} />
               <Link page="Contact" selected={selected} setSelected={setSelected} />
+              
             </div>
           </div>
         )}

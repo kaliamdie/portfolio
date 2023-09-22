@@ -7,7 +7,7 @@ const imgStyle = {
 
 export default function Certificate() {
   return (
-    <div className="text-center">
+    <div id="certificate" className="text-center">
       <h2 className="text-3xl p-3">Certification</h2>
  
       <div className="m-8 lg:m-96" style={imgStyle}>
